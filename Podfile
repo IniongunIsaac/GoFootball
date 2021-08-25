@@ -20,7 +20,7 @@ target 'GoFootball' do
   pod 'HorizontalProgressBar'
   pod 'Kingfisher'
   pod 'Toast-Swift', '~> 5.0.1'
-  pod "AttributedStringBuilder"
+  pod 'BottomPopup'
   pod 'PocketSVG', '~> 2.0'
 
   target 'GoFootballTests' do

@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.2.2)
-  - AttributedStringBuilder (1.2.0)
+  - BottomPopup (0.7.0)
   - DeviceKit (4.2.1)
   - Differentiator (4.0.1)
   - HorizontalProgressBar (1.0.5)
@@ -44,7 +44,7 @@ PODS:
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
-  - AttributedStringBuilder
+  - BottomPopup
   - DeviceKit (~> 4.0)
   - HorizontalProgressBar
   - Kingfisher
@@ -64,7 +64,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
-    - AttributedStringBuilder
+    - BottomPopup
     - DeviceKit
     - Differentiator
     - HorizontalProgressBar
@@ -95,7 +95,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
-  AttributedStringBuilder: 3cee4ae28b8fc6eba136242f89b0ea697a3b9d55
+  BottomPopup: fe3e284628532f99093ae68c592c6b9d392c972d
   DeviceKit: cadb5ff25d45fe186778bf2d0fd2ea4750542189
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   HorizontalProgressBar: f0e3d36051656651d1430d2cf5e0146fc4895f15
@@ -115,6 +115,6 @@ SPEC CHECKSUMS:
   SwinjectStoryboard: f0d5b1c16459949d6ff1cbb6610107946b18e1f8
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 135115615765b1f56733aeabb4df16da20ee6af8
+PODFILE CHECKSUM: a06e0bc4adec0a454ef74510b5756c1216df3333
 
 COCOAPODS: 1.10.2

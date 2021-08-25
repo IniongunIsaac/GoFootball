@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import Kingfisher
+import RxSwift
 
 typealias NoParamHandler = () -> Void
 
@@ -102,6 +103,10 @@ extension String {
     
     func insensitiveEquals(_ value: String) -> Bool {
         localizedCaseInsensitiveCompare(value) == .orderedSame
+    }
+    
+    func insensitiveContains(_ value: String) -> Bool {
+        lowercased().localizedCaseInsensitiveContains(value.lowercased())
     }
     
 }
@@ -217,6 +222,8 @@ extension Array where Element: Equatable {
 
 extension Collection {
     var isNotEmpty: Bool { !self.isEmpty }
+    
+    var asObservable: Observable<[Element]> { Observable.just(self as! [Self.Element]) }
 }
 
 extension RangeReplaceableCollection where Element: Equatable {

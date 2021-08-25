@@ -17,7 +17,7 @@ class MatchesViewController: BaseViewController {
     
     override func configureViews() {
         super.configureViews()
-        //title = "Premier League Matches"
+        
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "EPL Matches"
         

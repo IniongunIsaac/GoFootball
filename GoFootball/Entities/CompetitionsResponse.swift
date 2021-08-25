@@ -9,7 +9,7 @@
 import Foundation
 
 struct CompetitionsResponse: Codable {
-    let count: Int
+    let count: Int?
     let filters: AnyStruct
     let competitions: [Competition]
 }

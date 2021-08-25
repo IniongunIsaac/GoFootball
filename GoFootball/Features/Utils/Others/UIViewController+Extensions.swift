@@ -112,4 +112,12 @@ extension UIViewController {
         view.hideAllToasts()
     }
     
+    var width: CGFloat {
+        UIScreen.main.bounds.width
+    }
+    
+    var height: CGFloat {
+        UIScreen.main.bounds.height
+    }
+    
 }

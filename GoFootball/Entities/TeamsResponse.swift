@@ -9,8 +9,8 @@
 import Foundation
 
 struct TeamsResponse: Codable {
-    let count: Int
-    let filters: AnyStruct
+    let count: Int?
+    let filters: AnyStruct?
     let competition: Competition
     let season: Season
     let teams: [Team]

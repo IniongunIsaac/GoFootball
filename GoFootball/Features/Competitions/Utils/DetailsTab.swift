@@ -1,15 +1,13 @@
 //
-//  CompetitionTableViewCell.swift
+//  DetailTab.swift
 //  GoFootball
 //
 //  Created by Isaac Iniongun on 25/08/2021.
 //  Copyright © 2021 Isaac Iniongun. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class CompetitionTableViewCell: UITableViewCell {
-
-    
-
+enum DetailsTab {
+    case standings, matches, teams
 }

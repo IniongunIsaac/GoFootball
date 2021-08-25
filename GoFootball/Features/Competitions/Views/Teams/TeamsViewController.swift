@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import RxSwift
 
 class TeamsViewController: UIViewController {
+    
+    var teams = [Team]()
+    fileprivate let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
