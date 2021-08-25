@@ -17,19 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_transparent" translatesAutoresizingMaskIntoConstraints="NO" id="2uv-pw-HX2">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="UeN-WS-wGD"/>
-                                    <constraint firstAttribute="height" constant="128" id="wvJ-cW-E9U"/>
-                                </constraints>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GoFootball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lg7-wg-KS9">
+                                <rect key="frame" x="151" y="435" width="112" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="2uv-pw-HX2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2yn-Fe-wvO"/>
-                            <constraint firstItem="2uv-pw-HX2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hqS-0b-OHU"/>
+                            <constraint firstItem="Lg7-wg-KS9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ek0-sL-ee7"/>
+                            <constraint firstItem="Lg7-wg-KS9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sR0-Nt-ulc"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -39,7 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo_transparent" width="1200" height="1200"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

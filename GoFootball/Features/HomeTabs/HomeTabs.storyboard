@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,8 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" name="AccentColor"/>
-                        <color key="selectedImageTintColor" name="AccentColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="kCx-SE-Y53" kind="relationship" relationship="viewControllers" id="eUT-yJ-aRQ"/>
@@ -32,7 +29,7 @@
         <scene sceneID="8hJ-vK-am0">
             <objects>
                 <viewControllerPlaceholder storyboardName="Matches" id="kCx-SE-Y53" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Matches" id="xJz-Mi-sYw"/>
+                    <tabBarItem key="tabBarItem" title="Matches" image="pitch_icon" id="xJz-Mi-sYw"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EJ5-wN-7Ob" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +39,7 @@
         <scene sceneID="caW-tx-OfY">
             <objects>
                 <viewControllerPlaceholder storyboardName="Competitions" id="QNl-dt-uqx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Competitions" id="6tF-6O-pWl"/>
+                    <tabBarItem key="tabBarItem" title="Competitions" image="competition_icon" id="6tF-6O-pWl"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i5G-rd-zHd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,8 +47,7 @@
         </scene>
     </scenes>
     <resources>
-        <namedColor name="AccentColor">
-            <color red="0.035294117647058823" green="0.11372549019607843" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="competition_icon" width="24" height="24"/>
+        <image name="pitch_icon" width="24" height="24"/>
     </resources>
 </document>

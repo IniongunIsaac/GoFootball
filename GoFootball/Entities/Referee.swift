@@ -9,6 +9,6 @@
 import Foundation
 
 struct Referee: Codable {
-    let id: Int
-    let name, role, nationality: String
+    let id: Int?
+    let name, role, nationality: String?
 }

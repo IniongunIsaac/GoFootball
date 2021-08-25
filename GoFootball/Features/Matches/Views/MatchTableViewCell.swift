@@ -10,6 +10,7 @@ import UIKit
 
 class MatchTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var matchView: MatchView!
     
 
 }

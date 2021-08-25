@@ -13,5 +13,5 @@ struct Competition: Codable {
     let area: Area
     let name: String
     let code, plan: String?
-    let lastUpdated: Date
+    let lastUpdated: String
 }

@@ -15,6 +15,9 @@ class CompetitionsViewController: BaseViewController {
     
     override func configureViews() {
         super.configureViews()
+        //hideNavBar(false)
+        title = "Competitions"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
 }

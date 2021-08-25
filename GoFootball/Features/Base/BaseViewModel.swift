@@ -63,7 +63,7 @@ class BaseViewModel {
     ///   - errorMessage: custom error message to be shown in times of error
     ///   - success: success completion handler. Recieves value of type `T`
     ///   - error: error completion handler. Receives `Error`
-    func subscribeAny<T>(_ observable: Observable<T>, showLoadingAnimation: Bool = true, showMessageAlerts: Bool = true, errorMessage: String? = nil, success: ((T) -> Void)? = nil, error: ((Error) -> Void)? = nil) {
+    func subscribe<T>(_ observable: Observable<T>, showLoadingAnimation: Bool = true, showMessageAlerts: Bool = true, errorMessage: String? = nil, success: ((T) -> Void)? = nil, error: ((Error) -> Void)? = nil) {
         showLoading(showLoadingAnimation)
         observable.subscribe(onNext: { [weak self] value in
             self?.showLoading(false)

@@ -9,6 +9,12 @@
 import Foundation
 import RxSwift
 
-protocol IGoFootballViewModel {
+protocol IGoFootballViewModel: Scopable {
+    
+    var defaultMatches: PublishSubject<[Match]> { get }
+    
+    func getDefaultMatches()
+    
+    func emitEmptyDefaultMatches()
     
 }

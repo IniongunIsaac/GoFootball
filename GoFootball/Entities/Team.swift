@@ -19,5 +19,5 @@ struct Team: Codable, Scopable {
     let email: String?
     let founded: Int?
     let clubColors, venue: String?
-    let lastUpdated: Date?
+    let lastUpdated: String?
 }

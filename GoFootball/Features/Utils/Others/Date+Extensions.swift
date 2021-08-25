@@ -162,6 +162,15 @@ extension String {
         return date?.toString(format: "dd MMM yy") ?? ""
     }
     
+    var displayTime: String {
+        //2021-08-13T19:00:00Z => YYYY-MM-DD'T'HH:mm:ssZ
+        let formatter = DateFormatter().apply {
+            $0.dateStyle = .none
+            $0.dateFormat = "YYYY-mm-dd'T'HH:mm:SSSZ"
+        }
+        return formatter.date(from: "2021-08-13T19:00:00Z")?.timeOnlyString(format: "HH:mm") ?? "No Time!"
+    }
+    
 }
 
 func currentDate(format: String = "dd MMM yyyy HH:mm a") -> Date {

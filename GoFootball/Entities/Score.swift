@@ -9,6 +9,6 @@
 import Foundation
 
 struct Score: Codable {
-    let winner, duration: String
+    let winner, duration: String?
     let fullTime, halfTime, extraTime, penalties: TimedScore
 }

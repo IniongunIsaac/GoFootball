@@ -11,10 +11,22 @@ import RxSwift
 
 class GoFootballViewModelImpl: BaseViewModel, IGoFootballViewModel {
     
+    var defaultMatches: PublishSubject<[Match]> = PublishSubject()
+    
     fileprivate let remoteDatasource: IRemoteDatasource
     
     init(remoteDatasource: IRemoteDatasource) {
         self.remoteDatasource = remoteDatasource
+    }
+    
+    func getDefaultMatches() {
+        subscribe(remoteDatasource.getMatches(competitionId: "PL"), success: { [weak self] matchesRes in
+            self?.defaultMatches.onNext(matchesRes.matches)
+        })
+    }
+    
+    func emitEmptyDefaultMatches() {
+        defaultMatches.onNext([])
     }
     
 }
