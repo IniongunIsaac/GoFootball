@@ -23,7 +23,7 @@ class StandingTableViewCell: UITableViewCell {
     func configureView(table: Table) {
         table.do {
             positionLabel.text = $0.position.string
-            if let teamCrestURL = $0.team.crestURL {
+            if let teamCrestURL = $0.team.crestUrl {
                 teamBadgeImageView.setImageFromURL(url: teamCrestURL)
             }
             teamNameLabel.text = $0.team.name
@@ -32,7 +32,7 @@ class StandingTableViewCell: UITableViewCell {
             drawnLabel.text = $0.draw.string
             lossLabel.text = $0.lost.string
             goalDifferenceLabel.text = $0.goalDifference.string
-            positionLabel.text = $0.points.string
+            pointsLabel.text = $0.points.string
         }
     }
 

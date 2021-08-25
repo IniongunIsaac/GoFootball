@@ -13,7 +13,7 @@ struct Team: Codable, Scopable {
     let name: String
     let area: Area?
     let shortName, tla: String?
-    let crestURL: String?
+    let crestUrl: String?
     let address, phone: String?
     let website: String?
     let email: String?

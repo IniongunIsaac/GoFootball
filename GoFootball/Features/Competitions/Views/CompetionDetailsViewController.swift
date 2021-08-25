@@ -46,6 +46,8 @@ class CompetionDetailsViewController: BottomPopupViewController {
         competitionNameLabel.text = competitionName
         [standingsView, matchesView, teamsView].addClearBackground()
         
+        showDetailsTab(.standings)
+        
         standingsView.animateViewOnTapGesture { [weak self] in
             self?.showDetailsTab(.standings)
         }
@@ -95,7 +97,7 @@ class CompetionDetailsViewController: BottomPopupViewController {
         view.addSubview(viewController.view)
         
         // Configure Child View
-        viewController.view.anchor(top: tabsStackView.bottomAnchor, paddingTop: 30, bottom: view.safeAreaLayoutGuide.bottomAnchor, paddingBottom: 20, left: view.leftAnchor, paddingLeft: 20, right: view.rightAnchor, paddingRight: 20)
+        viewController.view.anchor(top: tabsStackView.bottomAnchor, paddingTop: 30, bottom: view.safeAreaLayoutGuide.bottomAnchor, paddingBottom: 20, left: view.leftAnchor, paddingLeft: 0, right: view.rightAnchor, paddingRight: 0)
         viewController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
         // Notify Child View Controller
