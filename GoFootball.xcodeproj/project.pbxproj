@@ -90,7 +90,7 @@
 		14F8BEC526D66BFA00D931BD /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8BEC426D66BFA00D931BD /* TeamsViewController.swift */; };
 		14F8BEC726D66C1600D931BD /* StandingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8BEC626D66C1600D931BD /* StandingsViewController.swift */; };
 		14F8BECA26D66C4000D931BD /* CompetitionMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8BEC926D66C4000D931BD /* CompetitionMatchesViewController.swift */; };
-		14F8BECE26D66C7100D931BD /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8BECD26D66C7100D931BD /* TeamTableViewCell.swift */; };
+		14F8BECE26D66C7100D931BD /* TeamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8BECD26D66C7100D931BD /* TeamCollectionViewCell.swift */; };
 		14F8BED026D66C8100D931BD /* StandingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8BECF26D66C8100D931BD /* StandingTableViewCell.swift */; };
 		14F8BED326D66D5E00D931BD /* MatchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F8BED226D66D5E00D931BD /* MatchView.xib */; };
 		14F8BED526D66D7200D931BD /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F8BED426D66D7200D931BD /* MatchView.swift */; };
@@ -206,7 +206,7 @@
 		14F8BEC426D66BFA00D931BD /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		14F8BEC626D66C1600D931BD /* StandingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsViewController.swift; sourceTree = "<group>"; };
 		14F8BEC926D66C4000D931BD /* CompetitionMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionMatchesViewController.swift; sourceTree = "<group>"; };
-		14F8BECD26D66C7100D931BD /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		14F8BECD26D66C7100D931BD /* TeamCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCollectionViewCell.swift; sourceTree = "<group>"; };
 		14F8BECF26D66C8100D931BD /* StandingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingTableViewCell.swift; sourceTree = "<group>"; };
 		14F8BED226D66D5E00D931BD /* MatchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchView.xib; sourceTree = "<group>"; };
 		14F8BED426D66D7200D931BD /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
@@ -635,7 +635,7 @@
 			isa = PBXGroup;
 			children = (
 				14F8BEC426D66BFA00D931BD /* TeamsViewController.swift */,
-				14F8BECD26D66C7100D931BD /* TeamTableViewCell.swift */,
+				14F8BECD26D66C7100D931BD /* TeamCollectionViewCell.swift */,
 			);
 			path = Teams;
 			sourceTree = "<group>";
@@ -1002,7 +1002,7 @@
 				1454CE6D2512A5CC00AD1BF1 /* Date+Extensions.swift in Sources */,
 				1454CE6B2512A5AC00AD1BF1 /* RxView+Extensions.swift in Sources */,
 				1489452226D6BDFD0053AE9E /* DetailsTabView.swift in Sources */,
-				14F8BECE26D66C7100D931BD /* TeamTableViewCell.swift in Sources */,
+				14F8BECE26D66C7100D931BD /* TeamCollectionViewCell.swift in Sources */,
 				145A6826255D4A2900554B4C /* Numbers+Extensions.swift in Sources */,
 				14C23DA825034C1100614E69 /* PreferenceConstants.swift in Sources */,
 				14D1A5FA26A2E7C300B4D0C6 /* SVGProcessor.swift in Sources */,
