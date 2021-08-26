@@ -34,6 +34,12 @@
 		145A6826255D4A2900554B4C /* Numbers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A6825255D4A2900554B4C /* Numbers+Extensions.swift */; };
 		146D914B268D7BF9007E5FEE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914A268D7BF9007E5FEE /* BaseView.swift */; };
 		146D914E268D81EF007E5FEE /* UIPaddableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */; };
+		146E5A3426D7963C0069D572 /* screenshot_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E5A2E26D7963C0069D572 /* screenshot_2.png */; };
+		146E5A3526D7963C0069D572 /* screenshot_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E5A2F26D7963C0069D572 /* screenshot_4.png */; };
+		146E5A3626D7963C0069D572 /* screenshot_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E5A3026D7963C0069D572 /* screenshot_6.png */; };
+		146E5A3726D7963C0069D572 /* screenshot_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E5A3126D7963C0069D572 /* screenshot_3.png */; };
+		146E5A3826D7963C0069D572 /* screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E5A3226D7963C0069D572 /* screenshot_1.png */; };
+		146E5A3926D7963C0069D572 /* screenshot_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E5A3326D7963C0069D572 /* screenshot_5.png */; };
 		1489452026D6BDEB0053AE9E /* DetailsTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1489451F26D6BDEB0053AE9E /* DetailsTabView.xib */; };
 		1489452226D6BDFD0053AE9E /* DetailsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489452126D6BDFD0053AE9E /* DetailsTabView.swift */; };
 		1489452526D6C1D50053AE9E /* DetailsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489452426D6C1D50053AE9E /* DetailsTab.swift */; };
@@ -150,6 +156,12 @@
 		145A6825255D4A2900554B4C /* Numbers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numbers+Extensions.swift"; sourceTree = "<group>"; };
 		146D914A268D7BF9007E5FEE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		146D914D268D81EF007E5FEE /* UIPaddableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddableLabel.swift; sourceTree = "<group>"; };
+		146E5A2E26D7963C0069D572 /* screenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_2.png; sourceTree = "<group>"; };
+		146E5A2F26D7963C0069D572 /* screenshot_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_4.png; sourceTree = "<group>"; };
+		146E5A3026D7963C0069D572 /* screenshot_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_6.png; sourceTree = "<group>"; };
+		146E5A3126D7963C0069D572 /* screenshot_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_3.png; sourceTree = "<group>"; };
+		146E5A3226D7963C0069D572 /* screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_1.png; sourceTree = "<group>"; };
+		146E5A3326D7963C0069D572 /* screenshot_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_5.png; sourceTree = "<group>"; };
 		1489451F26D6BDEB0053AE9E /* DetailsTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsTabView.xib; sourceTree = "<group>"; };
 		1489452126D6BDFD0053AE9E /* DetailsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTabView.swift; sourceTree = "<group>"; };
 		1489452426D6C1D50053AE9E /* DetailsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTab.swift; sourceTree = "<group>"; };
@@ -255,6 +267,12 @@
 		144A5B31268FCF040015898D /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				146E5A3226D7963C0069D572 /* screenshot_1.png */,
+				146E5A2E26D7963C0069D572 /* screenshot_2.png */,
+				146E5A3126D7963C0069D572 /* screenshot_3.png */,
+				146E5A2F26D7963C0069D572 /* screenshot_4.png */,
+				146E5A3326D7963C0069D572 /* screenshot_5.png */,
+				146E5A3026D7963C0069D572 /* screenshot_6.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -796,16 +814,22 @@
 			files = (
 				149118F8269DB93E008E9D87 /* Nunito-SemiBold.ttf in Resources */,
 				149118EF269DB93E008E9D87 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				146E5A3626D7963C0069D572 /* screenshot_6.png in Resources */,
+				146E5A3826D7963C0069D572 /* screenshot_1.png in Resources */,
 				144AD2832502919900394E59 /* .gitignore in Resources */,
 				144AD25425028CF400394E59 /* LaunchScreen.storyboard in Resources */,
+				146E5A3726D7963C0069D572 /* screenshot_3.png in Resources */,
 				149118EB269DB93E008E9D87 /* Nunito-BoldItalic.ttf in Resources */,
 				149118F2269DB93E008E9D87 /* Nunito-BlackItalic.ttf in Resources */,
 				144AD25125028CF400394E59 /* Assets.xcassets in Resources */,
+				146E5A3926D7963C0069D572 /* screenshot_5.png in Resources */,
 				149118F5269DB93E008E9D87 /* Nunito-Regular.ttf in Resources */,
 				149118F3269DB93E008E9D87 /* Nunito-ExtraLight.ttf in Resources */,
+				146E5A3526D7963C0069D572 /* screenshot_4.png in Resources */,
 				144A5B30268FCE8A0015898D /* README.md in Resources */,
 				149118EE269DB93E008E9D87 /* Nunito-Black.ttf in Resources */,
 				14F8BE9026D5B62300D931BD /* Competitions.storyboard in Resources */,
+				146E5A3426D7963C0069D572 /* screenshot_2.png in Resources */,
 				149118F7269DB93E008E9D87 /* Nunito-ExtraLightItalic.ttf in Resources */,
 				14F8BE8426D5B46F00D931BD /* HomeTabs.storyboard in Resources */,
 				14F8BED326D66D5E00D931BD /* MatchView.xib in Resources */,

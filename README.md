@@ -1,13 +1,15 @@
-# Autocheck Mobile
-An iOS application that displays automobiles.
+# GoFootball
+An iOS application that displays football matches and other details.
 
 ##### Features:
-* Automobile Makes
-* Paginatinated List of Automobiles
-* Automobile Details
+* Football Matches
+* Football competitions
+* Competition Teams
+* Competition Standings
+* Competition Matches
 
 ## Technology Stack
-The app is built using the follwing:
+The app is built using the following:
 
 * Swift
 * RxSwift: `https://github.com/ReactiveX/RxSwift`
@@ -23,8 +25,9 @@ The app is built using the follwing:
 * Build and run the project on the XCode Simulator or any physically connected iOS device.
 
 ### Screenshots
-<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/splash.png" width="400" height="750" alt="Splash">     <img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/makes.png" width="400" height="750" alt="Makes">
-
-<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/list.png" width="400" height="750" alt="List">     <img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/details_1.png" width="400" height="750" alt="Details">
-
-<img src="https://github.com/IniongunIsaac/Autocheck-Mobile-iOS/blob/main/Screenshots/details_2.png" width="400" height="750" alt="Details"> 
+[<img src="/GoFootball/Screenshots/screenshot_1.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_1.png)
+[<img src="/GoFootball/Screenshots/screenshot_2.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_2.png)
+[<img src="/GoFootball/Screenshots/screenshot_3.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_3.png)
+[<img src="/GoFootball/Screenshots/screenshot_4.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_4.png)
+[<img src="/GoFootball/Screenshots/screenshot_5.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_5.png)
+[<img src="/GoFootball/Screenshots/screenshot_6.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_6.png)
