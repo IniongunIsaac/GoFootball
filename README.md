@@ -25,9 +25,9 @@ The app is built using the following:
 * Build and run the project on the XCode Simulator or any physically connected iOS device.
 
 ### Screenshots
-[<img src="/GoFootball/Screenshots/screenshot_1.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_1.png)
-[<img src="/GoFootball/Screenshots/screenshot_2.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_2.png)
-[<img src="/GoFootball/Screenshots/screenshot_3.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_3.png)
-[<img src="/GoFootball/Screenshots/screenshot_4.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_4.png)
-[<img src="/GoFootball/Screenshots/screenshot_5.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_5.png)
-[<img src="/GoFootball/Screenshots/screenshot_6.png" align="center" width ="22%" hspace="0" vspace="10">](/GoFootball/Screenshots/screenshot_6.png)
+[<img src="/Screenshots/screenshot_1.png" align="center" width ="22%" hspace="0" vspace="10">](/Screenshots/screenshot_1.png)
+[<img src="/Screenshots/screenshot_2.png" align="center" width ="22%" hspace="0" vspace="10">](/Screenshots/screenshot_2.png)
+[<img src="/Screenshots/screenshot_3.png" align="center" width ="22%" hspace="0" vspace="10">](/Screenshots/screenshot_3.png)
+[<img src="/Screenshots/screenshot_4.png" align="center" width ="22%" hspace="0" vspace="10">](/Screenshots/screenshot_4.png)
+[<img src="/Screenshots/screenshot_5.png" align="center" width ="22%" hspace="0" vspace="10">](/Screenshots/screenshot_5.png)
+[<img src="/Screenshots/screenshot_6.png" align="center" width ="22%" hspace="0" vspace="10">](/Screenshots/screenshot_6.png)
